@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My first IA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1 id="title-h1">
+    Mon <span class="color-yellow">1er</span> site d'<i>IA</i>
+  </h1>
+
+  <h2>Nombre de réponses : <span id="counter">0</span></h2>
+
+  <div class="container">
+
+    <form id="my-form">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Quelle température?</label>
+        <input type="text" class="form-control" id="user-answer" aria-describedby="emailHelp">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div id="ia-message"></div>
+
+<!-- Exemple vu pendant le cours -->
+<!--   <ul id="bande-a-picsou">
+    <li>Riri</li>
+    <li>Fifi</li>
+    <li>Loulou</li>
+
+  </ul> -->
+
+  <script src="js/application.js"></script>
+</body>
+</html>
